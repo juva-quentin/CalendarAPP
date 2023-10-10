@@ -4,11 +4,15 @@ Ce projet a été généré avec [Angular CLI](https://github.com/angular/angula
 
 ## Installation
 
+Ce projet est lié avec un autre, pour qu'il fonctionne, vous devrez cloner ce repo et lire son readMe : 
+```bash
+git clone https://github.com/juva-quentin/CalendarAPI.git
+```
 Pour démarrer le développement de l'application, exécutez `npm install` pour installer les dépendances nécessaires.
 
 ## Serveur de développement
 
-Exécutez `ng serve` pour lancer un serveur de développement. Accédez à `http://localhost:4200/` dans votre navigateur. L'application se rechargera automatiquement si vous modifiez l'un des fichiers source.
+Exécutez `ng serve` ou `npm start` pour lancer un serveur de développement. Accédez à `http://localhost:4200/` dans votre navigateur. L'application se rechargera automatiquement si vous modifiez l'un des fichiers source.
 
 ## Génération de code
 
