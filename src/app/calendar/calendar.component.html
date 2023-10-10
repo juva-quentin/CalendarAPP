@@ -1,0 +1,25 @@
+<div class="calendar">
+  <div class="calendar-header">
+    <button (click)="previousMonth()">Mois précédent</button>
+    <h2>{{ monthNames[currentMonth - 1] }} {{ currentYear }}</h2>
+    <button (click)="nextMonth()">Mois suivant</button>
+  </div>
+  <table class="calendar-table">
+    <thead>
+    <tr>
+      <th class="day-header">Lundi</th>
+      <th class="day-header">Mardi</th>
+      <th class="day-header">Mercredi</th>
+      <th class="day-header">Jeudi</th>
+      <th class="day-header">Vendredi</th>
+      <th class="day-header">Samedi</th>
+      <th class="day-header">Dimanche</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr *ngFor="let week of calendarData">
+      <td *ngFor="let day of week" class="calendar-day">{{ day }}</td>
+    </tr>
+    </tbody>
+  </table>
+</div>
